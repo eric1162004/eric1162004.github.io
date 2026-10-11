@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Eric Cheung"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "About"
+      - href: research.qmd
+        text: "Research & Writing"
+      - href: projects.qmd
+        text: "Projects"
+      - href: resume.qmd
+        text: "Resume"
+    right:
+      - icon: github
+        href: https://github.com/<your-username>
+      - icon: linkedin
+        href: https://linkedin.com/in/<your-linkedin-handle>
+
+format:
+  html:
+    theme: cosmo
+    toc: true

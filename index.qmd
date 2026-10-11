@@ -1,0 +1,18 @@
+---
+title: "Eric Cheung"
+about:
+  template: jolla
+  image: profile.jpg   # optional
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/<your-username>
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/<your-linkedin-handle>
+    - icon: envelope
+      text: Email
+      href: mailto:<your-email>
+---
+
+I am a Computing Science student at Simon Fraser University with a prior background in Molecular Biology and Biochemistry. My primary work centers on computational biology, genomic language models, and applying machine learning to large-scale biological sequence data.

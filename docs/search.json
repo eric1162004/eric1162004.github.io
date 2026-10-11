@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume / CV",
+    "section": "",
+    "text": "Download Resume (PDF)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Eric Cheung",
+    "section": "",
+    "text": "I am a Computing Science student at Simon Fraser University with a prior background in Molecular Biology and Biochemistry. My primary work centers on computational biology, genomic language models, and applying machine learning to large-scale biological sequence data."
+  }
+]
