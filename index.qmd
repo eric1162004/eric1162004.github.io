@@ -17,24 +17,7 @@ about:
 
 ```{=html}
 <style>
-/* Moves the photo/links column to the right on desktop */
-@media (min-width: 768px) {
-  .quarto-about-trestles {
-    display: flex !important;
-    flex-direction: row-reverse !important;
-    justify-content: space-between !important;
-    gap: 2.5rem !important;
-  }
-  
-  .quarto-about-trestles .about-entity {
-    border-right: none !important;
-    border-left: 1px solid rgba(0, 0, 0, 0.1) !important;
-    padding-left: 2rem !important;
-    padding-right: 0 !important;
-  }
-}
-
-/* Centers the sidebar container */
+/* Keeps sidebar centered on the left */
 .about-entity {
   display: flex !important;
   flex-direction: column !important;
@@ -50,14 +33,14 @@ about:
   gap: 0.5rem !important;
 }
 
-/* Places the QR code centered below the horizontal buttons */
+/* Places the QR code centered directly below the social buttons */
 .about-entity::after {
   content: "";
   display: block;
   margin-top: 1.25rem;
   width: 115px;
   height: 115px;
-  background-image: url('assets/site-qr.png');
+  background-image: url('assets/site_qr.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -81,9 +64,3 @@ I am a fourth-year computing science student at Simon Fraser University, combini
 
 - **B.Sc. in Computing Science** — Simon Fraser University *(Expected Grad. 2026/2027)* 
 - **B.Sc. in Molecular Biology and Biochemistry** — Simon Fraser University
-
-::: {style="text-align: center; margin-top: 2.5rem;"}
-![](assets/site-qr.png){width=110px style="border-radius: 6px; border: 1px solid #dee2e6; padding: 4px;"}
-
-<small style="color: #6c757d; display: block; margin-top: 0.25rem;">Scan for mobile profile</small>
-:::
