@@ -53,7 +53,7 @@
     "href": "notes.html",
     "title": "Push and deploy",
     "section": "",
-    "text": "Push and deploy\nquarto render git add . git commit -m “updates” git push origin main\n\n\nPrview locally\nquarto preview"
+    "text": "Push and deploy\nquarto render && git add . && git commit -m “updates” && git push origin main\n\n\nPrview locally\nquarto preview"
   },
   {
     "objectID": "research.html",
