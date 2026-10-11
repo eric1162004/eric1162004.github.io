@@ -17,27 +17,41 @@ about:
 
 ```{=html}
 <style>
-/* Keeps sidebar centered on the left */
+/* Base styling: Centers the sidebar contents */
 .about-entity {
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
+  text-align: center !important;
 }
 
-/* Keeps social buttons in a horizontal row */
+/* Explicitly centers the profile photo wrapper and image */
+.about-entity .about-image {
+  margin: 0 auto 1.25rem auto !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.about-entity .about-image img {
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+/* Keeps social buttons in a horizontal wrapping row */
 .about-entity .about-links {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important;
   justify-content: center !important;
   gap: 0.5rem !important;
+  width: 100% !important;
 }
 
-/* Places the QR code centered directly below the social buttons */
+/* Centers the QR code below the buttons */
 .about-entity::after {
   content: "";
   display: block;
-  margin-top: 1.25rem;
+  margin: 1.25rem auto 0 auto !important;
   width: 115px;
   height: 115px;
   background-image: url('assets/site_qr.png');
@@ -47,6 +61,31 @@ about:
   border-radius: 6px;
   border: 1px solid #dee2e6;
   padding: 4px;
+}
+
+/* Mobile-specific adjustments (screens under 768px) */
+@media (max-width: 767.98px) {
+  .quarto-about-trestles {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .quarto-about-trestles .about-entity {
+    width: 100% !important;
+    margin: 0 auto 2rem auto !important;
+    border-right: none !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .quarto-about-trestles .about-entity .about-image {
+    margin: 1.5rem auto 1.25rem auto !important;
+  }
+
+  .quarto-about-trestles .about-contents {
+    width: 100% !important;
+  }
 }
 </style>
 
