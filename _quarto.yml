@@ -16,9 +16,9 @@ website:
         text: "Resume"
     right:
       - icon: github
-        href: https://github.com/<your-username>
+        href: https://github.com/eric1162004
       - icon: linkedin
-        href: https://linkedin.com/in/<your-linkedin-handle>
+        href: https://linkedin.com/in/eric-cheung-057688221
 
 format:
   html:
