@@ -22,5 +22,6 @@ website:
 
 format:
   html:
-    theme: cosmo
-    toc: true
+    theme: 
+      light: flatly
+      dark: darkly

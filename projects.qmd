@@ -1,0 +1,37 @@
+---
+title: "Projects"
+---
+
+### Unsupervised Pangenomic Analysis of *Paenibacillus polymyxa*
+**CMPT 353 — Computational Data Science** *(Summer 2026)*
+
+<div style="margin-bottom: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+  <a class="btn btn-primary btn-sm" href="https://github.com/eric1162004/CMPT353_P_POLYMYXA_PANGENOME_PIPELINE" target="_blank" role="button">GitHub Repository</a>
+  <a class="btn btn-outline-secondary btn-sm" href="assets/course_cmpt353_pangenomic_analysis_eric_cheung.pdf" target="_blank" role="button">Project Report (PDF)</a>
+</div>
+
+- Developed an unsupervised machine learning pipeline in Python to analyze 62 *P. polymyxa* draft genomes, resolving species boundaries and evolutionary sub-lineages.
+- Engineered a custom GFF3 parsing module using Pandas to filter biological noise and extract Coding Sequences (CDS), constructing a $62 \times 4,460$ binary presence/absence feature matrix.
+- Mapped global genomic variance via Principal Component Analysis (PCA) and evaluated population structures using K-Means and Hierarchical Agglomerative Clustering (HCA) with Jaccard distance.
+- Extracted top genetic loading drivers across PC1 and PC2, and implemented targeted regex keyword profiling to compute a normalized Target Functional Index for pathogenic risk screening.
+
+**Key Technologies:** Python, Pandas, Scikit-Learn, PCA, HCA, K-Means, Regular Expressions, Matplotlib.
+
+---
+
+### Reliable Data Transfer Protocol over UDP
+**CMPT 371 — Data Communications and Networking** *(Fall 2025)*
+
+<div style="margin-bottom: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+  <a class="btn btn-primary btn-sm" href="https://github.com/eric1162004/CMPT371-MINI-PROJECT-2-RELIABLE-DATA-TRANSFER" target="_blank" role="button">GitHub Repository</a>
+  <a class="btn btn-outline-secondary btn-sm" href="assets/course_cmpt371_rdt_report_eric_cheung.pdf" target="_blank" role="button">Project Report (PDF)</a>
+</div>
+
+- Implemented a pipelined Reliable Data Transfer (RDT) transport protocol over UDP featuring cumulative ACKs and fast retransmit, achieving 100% in-order delivery across network conditions with packet loss, delay, duplication, and bit-error corruption.
+- Engineered TCP-style sliding window congestion control alongside receiver-advertised flow control to dynamically adapt cwnd and rwnd behavior during low-consume conditions.
+- Validated protocol invariants with a suite confirming handshake integrity, retransmission timeouts, and buffer allocation.
+
+**Key Technologies:** Python, UDP Sockets, Network Simulation, Protocol Verification, Flow & Congestion Control.
+
+---
+
