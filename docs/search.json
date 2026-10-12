@@ -14,6 +14,20 @@
     "text": "Unsupervised Pangenomic Analysis of Paenibacillus polymyxa\nCMPT 353 — Computational Data Science (Summer 2026)\n\nGitHub Repository Project Report (PDF)\n\n\nDeveloped an unsupervised machine learning pipeline in Python to analyze 62 P. polymyxa draft genomes, resolving species boundaries and evolutionary sub-lineages.\nEngineered a custom GFF3 parsing module using Pandas to filter biological noise and extract Coding Sequences (CDS), constructing a \\(62 \\times 4,460\\) binary presence/absence feature matrix.\nMapped global genomic variance via Principal Component Analysis (PCA) and evaluated population structures using K-Means and Hierarchical Agglomerative Clustering (HCA) with Jaccard distance.\nExtracted top genetic loading drivers across PC1 and PC2, and implemented targeted regex keyword profiling to compute a normalized Target Functional Index for pathogenic risk screening.\n\nKey Technologies: Python, Pandas, Scikit-Learn, PCA, HCA, K-Means, Regular Expressions, Matplotlib.\n\n\n\nReliable Data Transfer Protocol over UDP\nCMPT 371 — Data Communications and Networking (Fall 2025)\n\nGitHub Repository Project Report (PDF)\n\n\nImplemented a pipelined Reliable Data Transfer (RDT) transport protocol over UDP featuring cumulative ACKs and fast retransmit, achieving 100% in-order delivery across network conditions with packet loss, delay, duplication, and bit-error corruption.\nEngineered TCP-style sliding window congestion control alongside receiver-advertised flow control to dynamically adapt cwnd and rwnd behavior during low-consume conditions.\nValidated protocol invariants with a suite confirming handshake integrity, retransmission timeouts, and buffer allocation.\n\nKey Technologies: Python, UDP Sockets, Network Simulation, Protocol Verification, Flow & Congestion Control."
   },
   {
+    "objectID": "deploy.html",
+    "href": "deploy.html",
+    "title": "Push and deploy",
+    "section": "",
+    "text": "Push and deploy\nquarto render && git add . && git commit -m “updates” && git push origin main\n\n\nPrview locally\nquarto preview"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Eric Cheung",
@@ -42,24 +56,10 @@
     "text": "Education\n\nB.Sc. in Computing Science — Simon Fraser University (Expected Grad. 2026/2027)\nB.Sc. in Molecular Biology and Biochemistry — Simon Fraser University"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": "Push and deploy",
-    "section": "",
-    "text": "Push and deploy\nquarto render && git add . && git commit -m “updates” && git push origin main\n\n\nPrview locally\nquarto preview"
-  },
-  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research & Writing",
     "section": "",
-    "text": "Benchmarking Long-Context Genomic Language Models for Synteny-Aware Antimicrobial Resistance Prediction\nNSERC CGS-M Research Proposal (2026)\n\nOpen Proposal (PDF) Download\n\nOverview:\nStandard homology tools (e.g., BLAST, HMMER) evaluate resistance genes in isolation, frequently missing regulatory syntenic context and producing pseudogene false positives. This research proposal outlines a benchmarking framework for sub-quadratic, reverse-complement (RC) equivariant genomic language models (HyenaDNA, Caduceus) scaled across 1–32 kb windows. The framework benchmarks single-nucleotide resolution sensitivity to promoter motifs and frameshifts while evaluating out-of-distribution generalizability across diverse GC-content bacterial genomes.\n\n\n\n\n\n\nNotePreview Proposal PDF\n\n\n\n\n\n\n&lt;p&gt;\nYour browser does not support inline PDFs. Please use the button above to view.\n&lt;/p&gt;\n\n\n\n\n\n\n\nImplementing Secure Genome Language Models for National Antimicrobial Resistance Surveillance\nCMPT 376W — Professional Responsibility and Technical Writing (Summer 2026)\n\nOpen Paper (PDF) Download\n\nOverview:\nA persuasive technical paper prepared for the Public Health Agency of Canada (PHAC) examining structural false-negative blind spots in legacy sequence homology tools when identifying novel, divergent antimicrobial resistance genes (&lt;40% identity). It proposes a dual-layer implementation framework: an air-gapped, federated deployment ensuring strict patient metagenomic privacy, paired with a Two-Tier Verification System (0.8 probability commit cutoff and AttnLRP explainability validation) to combine sensitive deep learning detection with clinical auditability.\n\n\n\n\n\n\nNotePreview Paper PDF\n\n\n\n\n\n\n&lt;p&gt;\nYour browser does not support inline PDFs. Please use the button above to view.\n&lt;/p&gt;"
+    "text": "Benchmarking Long-Context Genomic Language Models for Synteny-Aware Antimicrobial Resistance Prediction\nNSERC CGS-M Research Proposal (Draft 2026)\n\nOpen Proposal (PDF) Download\n\nOverview:\nStandard homology tools (e.g., BLAST, HMMER) evaluate resistance genes in isolation, frequently missing regulatory syntenic context and producing pseudogene false positives. This research proposal outlines a benchmarking framework for sub-quadratic, reverse-complement (RC) equivariant genomic language models (HyenaDNA, Caduceus) scaled across 1–32 kb windows. The framework benchmarks single-nucleotide resolution sensitivity to promoter motifs and frameshifts while evaluating out-of-distribution generalizability across diverse GC-content bacterial genomes.\n\n\n\n\n\n\nNotePreview Proposal PDF\n\n\n\n\n\n\n&lt;p&gt;\nYour browser does not support inline PDFs. Please use the button above to view.\n&lt;/p&gt;\n\n\n\n\n\n\n\nImplementing Secure Genome Language Models for National Antimicrobial Resistance Surveillance\nCMPT 376W — Professional Responsibility and Technical Writing (Summer 2026)\n\nOpen Paper (PDF) Download\n\nOverview:\nA persuasive technical paper prepared for the Public Health Agency of Canada (PHAC) examining structural false-negative blind spots in legacy sequence homology tools when identifying novel, divergent antimicrobial resistance genes (&lt;40% identity). It proposes a dual-layer implementation framework: an air-gapped, federated deployment ensuring strict patient metagenomic privacy, paired with a Two-Tier Verification System (0.8 probability commit cutoff and AttnLRP explainability validation) to combine sensitive deep learning detection with clinical auditability.\n\n\n\n\n\n\nNotePreview Paper PDF\n\n\n\n\n\n\n&lt;p&gt;\nYour browser does not support inline PDFs. Please use the button above to view.\n&lt;/p&gt;"
   }
 ]

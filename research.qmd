@@ -3,7 +3,7 @@ title: "Research & Writing"
 ---
 
 ### Benchmarking Long-Context Genomic Language Models for Synteny-Aware Antimicrobial Resistance Prediction
-**NSERC CGS-M Research Proposal** *(2026)*
+**NSERC CGS-M Research Proposal** *(Draft 2026)*
 
 <div style="margin-bottom: 1.25rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
   <a class="btn btn-primary btn-sm" href="assets/grant_nserc_cgsm_proposal_eric_cheung.pdf" target="_blank" role="button">Open Proposal (PDF)</a>
