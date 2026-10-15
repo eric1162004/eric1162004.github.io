@@ -1,5 +1,6 @@
 ---
 title: "Eric Cheung"
+subtitle: "B.Sc. Student, Computing Science & Molecular Biology · SFU"
 about:
   template: trestles
   image: assets/profile.jpg
@@ -19,6 +20,19 @@ about:
 
 ```{=html}
 <style>
+/* Low-key subtitle styling */
+.about-entity .subtitle,
+.about-entity p.subtitle,
+.custom-profile-subtitle {
+  color: #7b8086 !important;       /* Softer, lower-contrast gray */
+  font-size: 0.9rem !important;      /* Smaller, understated size */
+  font-weight: 300 !important;      /* Light font weight */
+  letter-spacing: 0.015em !important;
+  margin-top: 0.2rem !important;
+  margin-bottom: 0.85rem !important;
+  line-height: 1.35 !important;
+}
+
 /* Base desktop styling */
 .about-entity {
   display: flex !important;
