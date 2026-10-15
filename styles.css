@@ -1,1 +1,8 @@
 /* css styles */
+
+/* Bold the site title / brand in the navigation bar */
+.navbar-brand,
+.navbar-brand span {
+  font-weight: 600 !important; /* Use 800 or bold if you want it heavier */
+  letter-spacing: 0.02em;   
+}

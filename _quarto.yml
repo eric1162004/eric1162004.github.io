@@ -3,11 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "Eric Cheung"
+  title: "Eric Cheung" 
   navbar:
     left:
-      - href: index.qmd
-        text: "About"
       - href: research.qmd
         text: "Research & Writing"
       - href: projects.qmd
@@ -25,3 +23,4 @@ format:
     theme: 
       light: flatly
       dark: darkly
+    css: styles.css 

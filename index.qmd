@@ -3,6 +3,8 @@ title: "Eric Cheung"
 about:
   template: trestles
   image: assets/profile.jpg
+  image-shape: round   # Options: round (circle), rounded, or rectangle
+  image-width: 20em    # Adjust width (e.g., 10em, 160px, 200px)
   links:
     - icon: github
       text: GitHub
