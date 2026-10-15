@@ -6,3 +6,7 @@
   font-weight: 600 !important; /* Use 800 or bold if you want it heavier */
   letter-spacing: 0.02em;   
 }
+
+html {
+  font-size: 16px !important; /* scale down the font size across your entire Quarto website proportionally */
+} 
