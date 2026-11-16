@@ -130,5 +130,6 @@ I am a fourth-year computing science student at Simon Fraser University, combini
 
 ## Education
 
-- **B.Sc. in Computing Science** — Simon Fraser University *(Expected Grad. 2026/2027)* 
+- **B.Sc. in Computing Science** — Simon Fraser University *(Expected Grad. 2026/2027)*
+- **Computer Systems Technology Diploma** — Vancouver Community College
 - **B.Sc. in Molecular Biology and Biochemistry** — Simon Fraser University
