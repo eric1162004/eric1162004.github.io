@@ -2,12 +2,13 @@
 title: "Research & Writing"
 ---
 
-### Benchmarking Long-Context Genomic Language Models for Synteny-Aware Antimicrobial Resistance Prediction
-**NSERC CGS-M Research Proposal** *(Draft 2026)*
+### Benchmarking Long-Context Genomic Language Models for Predicting Antimicrobial Resistance
+Transmission Risk
+**NSERC CGS-M Research Proposal** *(Submitted 2026)*
 
 <div style="margin-bottom: 1.25rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-  <a class="btn btn-primary btn-sm" href="assets/grant_nserc_cgsm_proposal_eric_cheung.pdf" target="_blank" role="button">Open Proposal (PDF)</a>
-  <a class="btn btn-outline-secondary btn-sm" href="assets/grant_nserc_cgsm_proposal_eric_cheung.pdf" download role="button">Download</a>
+  <a class="btn btn-primary btn-sm" href="assets/NSERC_CGS_M_Proposal_Cheung.pdf" target="_blank" role="button">Open Proposal (PDF)</a>
+  <a class="btn btn-outline-secondary btn-sm" href="assets/NSERC_CGS_M_Proposal_Cheung.pdf" download role="button">Download</a>
 </div>
 
 **Overview:**  
@@ -15,7 +16,7 @@ Standard homology tools (e.g., BLAST, HMMER) evaluate resistance genes in isolat
 
 ::: {.callout-note collapse="true"}
 #### Preview Proposal PDF
-<iframe src="assets/grant_nserc_cgsm_proposal_eric_cheung.pdf" width="100%" height="700px" type="application/pdf">
+<iframe src="assets/NSERC_CGS_M_Proposal_Cheung.pdf" width="100%" height="700px" type="application/pdf">
   <p>Your browser does not support inline PDFs. Please use the button above to view.</p>
 </iframe>
 :::
