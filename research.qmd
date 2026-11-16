@@ -11,7 +11,7 @@ title: "Research & Writing"
 </div>
 
 **Overview:**  
-Standard homology tools (e.g., BLAST, HMMER) evaluate resistance genes in isolation, frequently missing regulatory syntenic context and producing pseudogene false positives. This research proposal outlines a benchmarking framework for sub-quadratic, reverse-complement (RC) equivariant genomic language models (HyenaDNA, Caduceus) scaled across 1–32 kb windows. The framework benchmarks single-nucleotide resolution sensitivity to promoter motifs and frameshifts while evaluating out-of-distribution generalizability across diverse GC-content bacterial genomes.
+Conventional antimicrobial resistance (AMR) tools like AMRFinderPlus detect resistance genes in isolation, missing the flanking genomic neighborhood (synteny) that governs horizontal gene transfer. Because genes flanked by mobile genomic elements (MGEs) pose a significantly higher transmission risk, this research proposal outlines a benchmarking framework for sub-quadratic, reverse-complement equivariant genomic language models (HyenaDNA, RC-Caduceus) scaled across 1–32 kb windows. Evaluated against AMRFinderPlus and 1 kb DNABERT-2 baselines, the framework measures distal MGE detection, out-of-distribution generalization across diverse GC-content bacterial pathogens, and causal feature attribution via Integrated Gradients and in silico sequence perturbations.
 
 ::: {.callout-note collapse="true"}
 #### Preview Proposal PDF
