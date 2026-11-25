@@ -10,7 +10,7 @@ title: "Projects"
 </div>
 
 - Built an end-to-end predictive modeling pipeline in R on a 156,348-row continuous-response dataset, systematically evaluating eight statistical and machine learning model families via 5-fold cross-validation.
-- Performed permutation variable importance screening using Random Forests (`ranger`) to identify primary numeric signal drivers (`X8`, `X15`, `X29`) and construct interaction-augmented linear models.
+- Performed permutation variable importance screening using Random Forests (`ranger`) to identify primary signal drivers and construct interaction-augmented linear models.
 - Progressed from regularized linear baselines (OLS, LASSO) and Generalized Additive Models (`mgcv::bam`) to non-parametric tree ensembles, capturing complex non-linear predictor interactions.
 - Engineered a multi-architecture `xgboost` ensemble that reduced 5-fold cross-validation MSPE by 99.91% from the sample-mean baseline ($1.100 \times 10^{12}$ to $9.943 \times 10^8$, and $9.752 \times 10^8$ on held-out validation).
 

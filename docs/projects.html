@@ -358,7 +358,7 @@ window.Quarto = {
 </div>
 <ul>
 <li>Built an end-to-end predictive modeling pipeline in R on a 156,348-row continuous-response dataset, systematically evaluating eight statistical and machine learning model families via 5-fold cross-validation.</li>
-<li>Performed permutation variable importance screening using Random Forests (<code>ranger</code>) to identify primary numeric signal drivers (<code>X8</code>, <code>X15</code>, <code>X29</code>) and construct interaction-augmented linear models.</li>
+<li>Performed permutation variable importance screening using Random Forests (<code>ranger</code>) to identify primary signal drivers and construct interaction-augmented linear models.</li>
 <li>Progressed from regularized linear baselines (OLS, LASSO) and Generalized Additive Models (<code>mgcv::bam</code>) to non-parametric tree ensembles, capturing complex non-linear predictor interactions.</li>
 <li>Engineered a multi-architecture <code>xgboost</code> ensemble that reduced 5-fold cross-validation MSPE by 99.91% from the sample-mean baseline (<span class="math inline">\(1.100 \times 10^{12}\)</span> to <span class="math inline">\(9.943 \times 10^8\)</span>, and <span class="math inline">\(9.752 \times 10^8\)</span> on held-out validation).</li>
 </ul>
