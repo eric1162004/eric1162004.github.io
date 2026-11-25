@@ -350,6 +350,21 @@ window.Quarto = {
 </header>
 
 
+<section id="statistical-ensemble-modeling-for-high-dimensional-regression" class="level3">
+<h3 class="anchored" data-anchor-id="statistical-ensemble-modeling-for-high-dimensional-regression">Statistical &amp; Ensemble Modeling for High-Dimensional Regression</h3>
+<p><strong>STAT 452 — Statistical Learning and Prediction</strong> <em>(Fall 2026)</em></p>
+<div style="margin-bottom: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+<p><a class="btn btn-outline-secondary btn-sm" href="assets/course_stat452_project_report_eric_cheung.pdf" target="_blank" role="button">Project Report (PDF)</a></p>
+</div>
+<ul>
+<li>Built an end-to-end predictive modeling pipeline in R on a 156,348-row continuous-response dataset, systematically evaluating eight statistical and machine learning model families via 5-fold cross-validation.</li>
+<li>Performed permutation variable importance screening using Random Forests (<code>ranger</code>) to identify primary numeric signal drivers (<code>X8</code>, <code>X15</code>, <code>X29</code>) and construct interaction-augmented linear models.</li>
+<li>Progressed from regularized linear baselines (OLS, LASSO) and Generalized Additive Models (<code>mgcv::bam</code>) to non-parametric tree ensembles, capturing complex non-linear predictor interactions.</li>
+<li>Engineered a multi-architecture <code>xgboost</code> ensemble that reduced 5-fold cross-validation MSPE by 99.91% from the sample-mean baseline (<span class="math inline">\(1.100 \times 10^{12}\)</span> to <span class="math inline">\(9.943 \times 10^8\)</span>, and <span class="math inline">\(9.752 \times 10^8\)</span> on held-out validation).</li>
+</ul>
+<p><strong>Key Technologies:</strong> R, <code>xgboost</code>, <code>ranger</code>, <code>mgcv</code>, <code>glmnet</code>, <code>tidyverse</code>, 5-Fold Cross-Validation, Ensemble Learning.</p>
+<hr>
+</section>
 <section id="unsupervised-pangenomic-analysis-of-paenibacillus-polymyxa" class="level3">
 <h3 class="anchored" data-anchor-id="unsupervised-pangenomic-analysis-of-paenibacillus-polymyxa">Unsupervised Pangenomic Analysis of <em>Paenibacillus polymyxa</em></h3>
 <p><strong>CMPT 353 — Computational Data Science</strong> <em>(Summer 2026)</em></p>

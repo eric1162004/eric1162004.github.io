@@ -2,6 +2,22 @@
 title: "Projects"
 ---
 
+### Statistical & Ensemble Modeling for High-Dimensional Regression
+**STAT 452 — Statistical Learning and Prediction** *(Fall 2026)*
+
+<div style="margin-bottom: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+  <a class="btn btn-outline-secondary btn-sm" href="assets/course_stat452_project_report_eric_cheung.pdf" target="_blank" role="button">Project Report (PDF)</a>
+</div>
+
+- Built an end-to-end predictive modeling pipeline in R on a 156,348-row continuous-response dataset, systematically evaluating eight statistical and machine learning model families via 5-fold cross-validation.
+- Performed permutation variable importance screening using Random Forests (`ranger`) to identify primary numeric signal drivers (`X8`, `X15`, `X29`) and construct interaction-augmented linear models.
+- Progressed from regularized linear baselines (OLS, LASSO) and Generalized Additive Models (`mgcv::bam`) to non-parametric tree ensembles, capturing complex non-linear predictor interactions.
+- Engineered a multi-architecture `xgboost` ensemble that reduced 5-fold cross-validation MSPE by 99.91% from the sample-mean baseline ($1.100 \times 10^{12}$ to $9.943 \times 10^8$, and $9.752 \times 10^8$ on held-out validation).
+
+**Key Technologies:** R, `xgboost`, `ranger`, `mgcv`, `glmnet`, `tidyverse`, 5-Fold Cross-Validation, Ensemble Learning.
+
+---
+
 ### Unsupervised Pangenomic Analysis of *Paenibacillus polymyxa*
 **CMPT 353 — Computational Data Science** *(Summer 2026)*
 
